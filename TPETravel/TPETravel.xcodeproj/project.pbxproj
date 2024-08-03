@@ -17,6 +17,19 @@
 		3B7A23A72C5E2DA300AABA3B /* TPETravelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7A23A62C5E2DA300AABA3B /* TPETravelTests.swift */; };
 		3B7A23B12C5E2DA300AABA3B /* TPETravelUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7A23B02C5E2DA300AABA3B /* TPETravelUITests.swift */; };
 		3B7A23B32C5E2DA300AABA3B /* TPETravelUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7A23B22C5E2DA300AABA3B /* TPETravelUITestsLaunchTests.swift */; };
+		3B7A23CB2C5E2E7E00AABA3B /* NewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7A23C92C5E2E7E00AABA3B /* NewsViewController.swift */; };
+		3B7A23CC2C5E2E7E00AABA3B /* NewsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7A23CA2C5E2E7E00AABA3B /* NewsViewModel.swift */; };
+		3B7A23D02C5E2E8E00AABA3B /* SpotsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7A23CE2C5E2E8E00AABA3B /* SpotsViewController.swift */; };
+		3B7A23D12C5E2E8E00AABA3B /* SpotsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7A23CF2C5E2E8E00AABA3B /* SpotsViewModel.swift */; };
+		3B7A23D42C5E2EC400AABA3B /* CombineCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 3B7A23D32C5E2EC400AABA3B /* CombineCocoa */; };
+		3B7A23D72C5E2F2800AABA3B /* SnapshotTesting in Frameworks */ = {isa = PBXBuildFile; productRef = 3B7A23D62C5E2F2800AABA3B /* SnapshotTesting */; };
+		3B7A23D92C5E32C700AABA3B /* LabelFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7A23D82C5E32C700AABA3B /* LabelFactory.swift */; };
+		3B7A23DC2C5E32D400AABA3B /* ThemeColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7A23DA2C5E32D400AABA3B /* ThemeColor.swift */; };
+		3B7A23DD2C5E32D400AABA3B /* ThemeFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7A23DB2C5E32D400AABA3B /* ThemeFont.swift */; };
+		3B7A23E12C5E32E000AABA3B /* UIResponder+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7A23DE2C5E32E000AABA3B /* UIResponder+Extension.swift */; };
+		3B7A23E22C5E32E000AABA3B /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7A23DF2C5E32E000AABA3B /* UIView+Extension.swift */; };
+		3B7A23E32C5E32E000AABA3B /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7A23E02C5E32E000AABA3B /* UIColor+Extension.swift */; };
+		3B7A23E52C5E330D00AABA3B /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7A23E42C5E330D00AABA3B /* NetworkService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +64,17 @@
 		3B7A23AC2C5E2DA300AABA3B /* TPETravelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TPETravelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B7A23B02C5E2DA300AABA3B /* TPETravelUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TPETravelUITests.swift; sourceTree = "<group>"; };
 		3B7A23B22C5E2DA300AABA3B /* TPETravelUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TPETravelUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3B7A23C92C5E2E7E00AABA3B /* NewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewController.swift; sourceTree = "<group>"; };
+		3B7A23CA2C5E2E7E00AABA3B /* NewsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewModel.swift; sourceTree = "<group>"; };
+		3B7A23CE2C5E2E8E00AABA3B /* SpotsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotsViewController.swift; sourceTree = "<group>"; };
+		3B7A23CF2C5E2E8E00AABA3B /* SpotsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotsViewModel.swift; sourceTree = "<group>"; };
+		3B7A23D82C5E32C700AABA3B /* LabelFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LabelFactory.swift; sourceTree = "<group>"; };
+		3B7A23DA2C5E32D400AABA3B /* ThemeColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThemeColor.swift; sourceTree = "<group>"; };
+		3B7A23DB2C5E32D400AABA3B /* ThemeFont.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThemeFont.swift; sourceTree = "<group>"; };
+		3B7A23DE2C5E32E000AABA3B /* UIResponder+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIResponder+Extension.swift"; sourceTree = "<group>"; };
+		3B7A23DF2C5E32E000AABA3B /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		3B7A23E02C5E32E000AABA3B /* UIColor+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		3B7A23E42C5E330D00AABA3B /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B7A23D42C5E2EC400AABA3B /* CombineCocoa in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +97,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B7A23D72C5E2F2800AABA3B /* SnapshotTesting in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -104,8 +130,13 @@
 				3B7A238E2C5E2DA200AABA3B /* AppDelegate.swift */,
 				3B7A23902C5E2DA200AABA3B /* SceneDelegate.swift */,
 				3B7A23922C5E2DA200AABA3B /* main.swift */,
-				3B7A23942C5E2DA200AABA3B /* HomeViewController.swift */,
-				3B7A23962C5E2DA200AABA3B /* HomeViewModel.swift */,
+				3B7A23CD2C5E2E8300AABA3B /* Spots */,
+				3B7A23C62C5E2E4800AABA3B /* News */,
+				3B7A23C52C5E2E4000AABA3B /* Home */,
+				3B7A23C22C5E2E1100AABA3B /* Service */,
+				3B7A23C12C5E2E0800AABA3B /* Config */,
+				3B7A23C02C5E2E0000AABA3B /* Factory */,
+				3B7A23BF2C5E2DE900AABA3B /* Extension */,
 				3B7A23982C5E2DA300AABA3B /* Assets.xcassets */,
 				3B7A239A2C5E2DA300AABA3B /* LaunchScreen.storyboard */,
 				3B7A239D2C5E2DA300AABA3B /* Info.plist */,
@@ -130,6 +161,68 @@
 			path = TPETravelUITests;
 			sourceTree = "<group>";
 		};
+		3B7A23BF2C5E2DE900AABA3B /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				3B7A23E02C5E32E000AABA3B /* UIColor+Extension.swift */,
+				3B7A23DE2C5E32E000AABA3B /* UIResponder+Extension.swift */,
+				3B7A23DF2C5E32E000AABA3B /* UIView+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		3B7A23C02C5E2E0000AABA3B /* Factory */ = {
+			isa = PBXGroup;
+			children = (
+				3B7A23D82C5E32C700AABA3B /* LabelFactory.swift */,
+			);
+			path = Factory;
+			sourceTree = "<group>";
+		};
+		3B7A23C12C5E2E0800AABA3B /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				3B7A23DA2C5E32D400AABA3B /* ThemeColor.swift */,
+				3B7A23DB2C5E32D400AABA3B /* ThemeFont.swift */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		3B7A23C22C5E2E1100AABA3B /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				3B7A23E42C5E330D00AABA3B /* NetworkService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		3B7A23C52C5E2E4000AABA3B /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				3B7A23942C5E2DA200AABA3B /* HomeViewController.swift */,
+				3B7A23962C5E2DA200AABA3B /* HomeViewModel.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		3B7A23C62C5E2E4800AABA3B /* News */ = {
+			isa = PBXGroup;
+			children = (
+				3B7A23C92C5E2E7E00AABA3B /* NewsViewController.swift */,
+				3B7A23CA2C5E2E7E00AABA3B /* NewsViewModel.swift */,
+			);
+			path = News;
+			sourceTree = "<group>";
+		};
+		3B7A23CD2C5E2E8300AABA3B /* Spots */ = {
+			isa = PBXGroup;
+			children = (
+				3B7A23CE2C5E2E8E00AABA3B /* SpotsViewController.swift */,
+				3B7A23CF2C5E2E8E00AABA3B /* SpotsViewModel.swift */,
+			);
+			path = Spots;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -146,6 +239,9 @@
 			dependencies = (
 			);
 			name = TPETravel;
+			packageProductDependencies = (
+				3B7A23D32C5E2EC400AABA3B /* CombineCocoa */,
+			);
 			productName = TPETravel;
 			productReference = 3B7A238B2C5E2DA200AABA3B /* TPETravel.app */;
 			productType = "com.apple.product-type.application";
@@ -182,6 +278,9 @@
 				3B7A23AE2C5E2DA300AABA3B /* PBXTargetDependency */,
 			);
 			name = TPETravelUITests;
+			packageProductDependencies = (
+				3B7A23D62C5E2F2800AABA3B /* SnapshotTesting */,
+			);
 			productName = TPETravelUITests;
 			productReference = 3B7A23AC2C5E2DA300AABA3B /* TPETravelUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
@@ -218,6 +317,10 @@
 				Base,
 			);
 			mainGroup = 3B7A23822C5E2DA200AABA3B;
+			packageReferences = (
+				3B7A23D22C5E2EC400AABA3B /* XCRemoteSwiftPackageReference "CombineCocoa" */,
+				3B7A23D52C5E2F2800AABA3B /* XCRemoteSwiftPackageReference "swift-snapshot-testing" */,
+			);
 			productRefGroup = 3B7A238C2C5E2DA200AABA3B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -260,8 +363,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B7A23DD2C5E32D400AABA3B /* ThemeFont.swift in Sources */,
+				3B7A23D02C5E2E8E00AABA3B /* SpotsViewController.swift in Sources */,
+				3B7A23D12C5E2E8E00AABA3B /* SpotsViewModel.swift in Sources */,
 				3B7A238F2C5E2DA200AABA3B /* AppDelegate.swift in Sources */,
+				3B7A23D92C5E32C700AABA3B /* LabelFactory.swift in Sources */,
 				3B7A23912C5E2DA200AABA3B /* SceneDelegate.swift in Sources */,
+				3B7A23CB2C5E2E7E00AABA3B /* NewsViewController.swift in Sources */,
+				3B7A23DC2C5E32D400AABA3B /* ThemeColor.swift in Sources */,
+				3B7A23E22C5E32E000AABA3B /* UIView+Extension.swift in Sources */,
+				3B7A23E32C5E32E000AABA3B /* UIColor+Extension.swift in Sources */,
+				3B7A23E52C5E330D00AABA3B /* NetworkService.swift in Sources */,
+				3B7A23E12C5E32E000AABA3B /* UIResponder+Extension.swift in Sources */,
+				3B7A23CC2C5E2E7E00AABA3B /* NewsViewModel.swift in Sources */,
 				3B7A23932C5E2DA200AABA3B /* main.swift in Sources */,
 				3B7A23972C5E2DA200AABA3B /* HomeViewModel.swift in Sources */,
 				3B7A23952C5E2DA200AABA3B /* HomeViewController.swift in Sources */,
@@ -601,6 +715,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3B7A23D22C5E2EC400AABA3B /* XCRemoteSwiftPackageReference "CombineCocoa" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/CombineCommunity/CombineCocoa";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.4.1;
+			};
+		};
+		3B7A23D52C5E2F2800AABA3B /* XCRemoteSwiftPackageReference "swift-snapshot-testing" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/swift-snapshot-testing";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.17.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3B7A23D32C5E2EC400AABA3B /* CombineCocoa */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3B7A23D22C5E2EC400AABA3B /* XCRemoteSwiftPackageReference "CombineCocoa" */;
+			productName = CombineCocoa;
+		};
+		3B7A23D62C5E2F2800AABA3B /* SnapshotTesting */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3B7A23D52C5E2F2800AABA3B /* XCRemoteSwiftPackageReference "swift-snapshot-testing" */;
+			productName = SnapshotTesting;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 3B7A23832C5E2DA200AABA3B /* Project object */;
 }

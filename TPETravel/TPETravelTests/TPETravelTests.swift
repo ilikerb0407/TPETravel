@@ -1,13 +1,12 @@
-/// <#Brief Description#> 
+/// <#Brief Description#>
 ///
 /// Created by TWINB00591630 on 2024/8/3.
 /// Copyright © 2024 Cathay United Bank. All rights reserved.
 
-import XCTest
 @testable import TPETravel
+import XCTest
 
 final class TPETravelTests: XCTestCase {
-
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
     }
@@ -26,9 +25,8 @@ final class TPETravelTests: XCTestCase {
 
     func testPerformanceExample() throws {
         // This is an example of a performance test case.
-        self.measure {
+        measure {
             // Put the code you want to measure the time of here.
         }
     }
-
 }

@@ -18,13 +18,13 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         window?.makeKeyAndVisible()
     }
 
-    func sceneDidDisconnect(_: UIScene) { }
+    func sceneDidDisconnect(_: UIScene) {}
 
-    func sceneDidBecomeActive(_: UIScene) { }
+    func sceneDidBecomeActive(_: UIScene) {}
 
-    func sceneWillResignActive(_: UIScene) { }
+    func sceneWillResignActive(_: UIScene) {}
 
-    func sceneWillEnterForeground(_: UIScene) { }
+    func sceneWillEnterForeground(_: UIScene) {}
 
-    func sceneDidEnterBackground(_: UIScene) { }
+    func sceneDidEnterBackground(_: UIScene) {}
 }

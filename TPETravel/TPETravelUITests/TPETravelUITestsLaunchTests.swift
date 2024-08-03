@@ -1,4 +1,4 @@
-/// <#Brief Description#> 
+/// <#Brief Description#>
 ///
 /// Created by TWINB00591630 on 2024/8/3.
 /// Copyright © 2024 Cathay United Bank. All rights reserved.
@@ -6,7 +6,6 @@
 import XCTest
 
 final class TPETravelUITestsLaunchTests: XCTestCase {
-
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true
     }

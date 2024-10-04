@@ -57,6 +57,8 @@ protocol STRequest {
     var endPoint: String { get }
 }
 
+// 1
+
 extension STRequest {
     
     func makeRequest() -> URLRequest {

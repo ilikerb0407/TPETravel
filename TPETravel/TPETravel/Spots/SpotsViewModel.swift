@@ -6,4 +6,7 @@
 import Combine
 import Foundation
 
-class SpotsViewModel {}
+class SpotsViewModel {
+    
+    
+}

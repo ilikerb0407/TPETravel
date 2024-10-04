@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		140D3097AD599DCC0AE84E1B /* Pods_TPETravelTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FD4C0F6160316F035CF54D5 /* Pods_TPETravelTests.framework */; };
+		23071BA52C6737110047E647 /* KingFisherWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23071BA42C6737110047E647 /* KingFisherWrapper.swift */; };
+		23071BA72C6737490047E647 /* MJRefreshWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23071BA62C6737490047E647 /* MJRefreshWrapper.swift */; };
+		23071BA92C6737540047E647 /* JGProgressHUDWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23071BA82C6737540047E647 /* JGProgressHUDWrapper.swift */; };
+		23EF176A2CADBDEA0003B4DE /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23EF17692CADBDEA0003B4DE /* Constant.swift */; };
+		23EF176C2CADBFEB0003B4DE /* HTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23EF176B2CADBFEB0003B4DE /* HTTPClient.swift */; };
+		23EF176E2CADC0360003B4DE /* Bundle+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23EF176D2CADC0360003B4DE /* Bundle+Extension.swift */; };
 		3B7A238F2C5E2DA200AABA3B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7A238E2C5E2DA200AABA3B /* AppDelegate.swift */; };
 		3B7A23912C5E2DA200AABA3B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7A23902C5E2DA200AABA3B /* SceneDelegate.swift */; };
 		3B7A23932C5E2DA200AABA3B /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7A23922C5E2DA200AABA3B /* main.swift */; };
@@ -30,6 +37,8 @@
 		3B7A23E22C5E32E000AABA3B /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7A23DF2C5E32E000AABA3B /* UIView+Extension.swift */; };
 		3B7A23E32C5E32E000AABA3B /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7A23E02C5E32E000AABA3B /* UIColor+Extension.swift */; };
 		3B7A23E52C5E330D00AABA3B /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7A23E42C5E330D00AABA3B /* NetworkService.swift */; };
+		3D7E4B42751658D336480E4E /* Pods_TPETravel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9F2CA5203165B47FD69A09D /* Pods_TPETravel.framework */; };
+		7724A5F805849711AE2A9C91 /* Pods_TPETravel_TPETravelUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB8D9603011F81BCB773FEC4 /* Pods_TPETravel_TPETravelUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +59,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		23071BA42C6737110047E647 /* KingFisherWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KingFisherWrapper.swift; sourceTree = "<group>"; };
+		23071BA62C6737490047E647 /* MJRefreshWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MJRefreshWrapper.swift; sourceTree = "<group>"; };
+		23071BA82C6737540047E647 /* JGProgressHUDWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JGProgressHUDWrapper.swift; sourceTree = "<group>"; };
+		23EF17692CADBDEA0003B4DE /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		23EF176B2CADBFEB0003B4DE /* HTTPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPClient.swift; sourceTree = "<group>"; };
+		23EF176D2CADC0360003B4DE /* Bundle+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+Extension.swift"; sourceTree = "<group>"; };
 		3B7A238B2C5E2DA200AABA3B /* TPETravel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TPETravel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B7A238E2C5E2DA200AABA3B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3B7A23902C5E2DA200AABA3B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -75,6 +90,15 @@
 		3B7A23DF2C5E32E000AABA3B /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
 		3B7A23E02C5E32E000AABA3B /* UIColor+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
 		3B7A23E42C5E330D00AABA3B /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		7FD4C0F6160316F035CF54D5 /* Pods_TPETravelTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TPETravelTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93BD1282A2C32023A8FC3C56 /* Pods-TPETravelTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TPETravelTests.debug.xcconfig"; path = "Target Support Files/Pods-TPETravelTests/Pods-TPETravelTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A4F4D37A354190F876243030 /* Pods-TPETravel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TPETravel.release.xcconfig"; path = "Target Support Files/Pods-TPETravel/Pods-TPETravel.release.xcconfig"; sourceTree = "<group>"; };
+		B33A5C29A267CF8852635083 /* Pods-TPETravelTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TPETravelTests.release.xcconfig"; path = "Target Support Files/Pods-TPETravelTests/Pods-TPETravelTests.release.xcconfig"; sourceTree = "<group>"; };
+		C6C18B0E3C593DAE6CCF3CEF /* Pods-TPETravel-TPETravelUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TPETravel-TPETravelUITests.release.xcconfig"; path = "Target Support Files/Pods-TPETravel-TPETravelUITests/Pods-TPETravel-TPETravelUITests.release.xcconfig"; sourceTree = "<group>"; };
+		CD196E72FAF6C07003012475 /* Pods-TPETravel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TPETravel.debug.xcconfig"; path = "Target Support Files/Pods-TPETravel/Pods-TPETravel.debug.xcconfig"; sourceTree = "<group>"; };
+		D9F2CA5203165B47FD69A09D /* Pods_TPETravel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TPETravel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB8D9603011F81BCB773FEC4 /* Pods_TPETravel_TPETravelUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TPETravel_TPETravelUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAD1EF095F4662CA42299D95 /* Pods-TPETravel-TPETravelUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TPETravel-TPETravelUITests.debug.xcconfig"; path = "Target Support Files/Pods-TPETravel-TPETravelUITests/Pods-TPETravel-TPETravelUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +107,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3B7A23D42C5E2EC400AABA3B /* CombineCocoa in Frameworks */,
+				3D7E4B42751658D336480E4E /* Pods_TPETravel.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,6 +115,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				140D3097AD599DCC0AE84E1B /* Pods_TPETravelTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,12 +124,45 @@
 			buildActionMask = 2147483647;
 			files = (
 				3B7A23D72C5E2F2800AABA3B /* SnapshotTesting in Frameworks */,
+				7724A5F805849711AE2A9C91 /* Pods_TPETravel_TPETravelUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1351BCB3728A10AD6AE0CF84 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CD196E72FAF6C07003012475 /* Pods-TPETravel.debug.xcconfig */,
+				A4F4D37A354190F876243030 /* Pods-TPETravel.release.xcconfig */,
+				FAD1EF095F4662CA42299D95 /* Pods-TPETravel-TPETravelUITests.debug.xcconfig */,
+				C6C18B0E3C593DAE6CCF3CEF /* Pods-TPETravel-TPETravelUITests.release.xcconfig */,
+				93BD1282A2C32023A8FC3C56 /* Pods-TPETravelTests.debug.xcconfig */,
+				B33A5C29A267CF8852635083 /* Pods-TPETravelTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		23071BA32C6736D00047E647 /* Three Party Wrapper */ = {
+			isa = PBXGroup;
+			children = (
+				23071BA42C6737110047E647 /* KingFisherWrapper.swift */,
+				23071BA62C6737490047E647 /* MJRefreshWrapper.swift */,
+				23071BA82C6737540047E647 /* JGProgressHUDWrapper.swift */,
+			);
+			name = "Three Party Wrapper";
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		23EF17682CADBDBD0003B4DE /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+				23EF17692CADBDEA0003B4DE /* Constant.swift */,
+			);
+			path = Constant;
+			sourceTree = "<group>";
+		};
 		3B7A23822C5E2DA200AABA3B = {
 			isa = PBXGroup;
 			children = (
@@ -111,6 +170,8 @@
 				3B7A23A52C5E2DA300AABA3B /* TPETravelTests */,
 				3B7A23AF2C5E2DA300AABA3B /* TPETravelUITests */,
 				3B7A238C2C5E2DA200AABA3B /* Products */,
+				1351BCB3728A10AD6AE0CF84 /* Pods */,
+				63E2201064CD6E0B790DFD14 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -130,6 +191,7 @@
 				3B7A238E2C5E2DA200AABA3B /* AppDelegate.swift */,
 				3B7A23902C5E2DA200AABA3B /* SceneDelegate.swift */,
 				3B7A23922C5E2DA200AABA3B /* main.swift */,
+				23071BA32C6736D00047E647 /* Three Party Wrapper */,
 				3B7A23CD2C5E2E8300AABA3B /* Spots */,
 				3B7A23C62C5E2E4800AABA3B /* News */,
 				3B7A23C52C5E2E4000AABA3B /* Home */,
@@ -167,6 +229,7 @@
 				3B7A23E02C5E32E000AABA3B /* UIColor+Extension.swift */,
 				3B7A23DE2C5E32E000AABA3B /* UIResponder+Extension.swift */,
 				3B7A23DF2C5E32E000AABA3B /* UIView+Extension.swift */,
+				23EF176D2CADC0360003B4DE /* Bundle+Extension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -191,7 +254,9 @@
 		3B7A23C22C5E2E1100AABA3B /* Service */ = {
 			isa = PBXGroup;
 			children = (
+				23EF17682CADBDBD0003B4DE /* Constant */,
 				3B7A23E42C5E330D00AABA3B /* NetworkService.swift */,
+				23EF176B2CADBFEB0003B4DE /* HTTPClient.swift */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -223,6 +288,16 @@
 			path = Spots;
 			sourceTree = "<group>";
 		};
+		63E2201064CD6E0B790DFD14 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D9F2CA5203165B47FD69A09D /* Pods_TPETravel.framework */,
+				EB8D9603011F81BCB773FEC4 /* Pods_TPETravel_TPETravelUITests.framework */,
+				7FD4C0F6160316F035CF54D5 /* Pods_TPETravelTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -230,9 +305,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3B7A23B62C5E2DA300AABA3B /* Build configuration list for PBXNativeTarget "TPETravel" */;
 			buildPhases = (
+				D3BF1B169DFE7C33A7081406 /* [CP] Check Pods Manifest.lock */,
 				3B7A23872C5E2DA200AABA3B /* Sources */,
 				3B7A23882C5E2DA200AABA3B /* Frameworks */,
 				3B7A23892C5E2DA200AABA3B /* Resources */,
+				24EC41FBCCFED1328DEA9950 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -250,6 +327,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3B7A23B92C5E2DA300AABA3B /* Build configuration list for PBXNativeTarget "TPETravelTests" */;
 			buildPhases = (
+				EFE6314C2554C8A007A053D9 /* [CP] Check Pods Manifest.lock */,
 				3B7A239E2C5E2DA300AABA3B /* Sources */,
 				3B7A239F2C5E2DA300AABA3B /* Frameworks */,
 				3B7A23A02C5E2DA300AABA3B /* Resources */,
@@ -268,9 +346,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3B7A23BC2C5E2DA300AABA3B /* Build configuration list for PBXNativeTarget "TPETravelUITests" */;
 			buildPhases = (
+				5733A8BDDADE82416C4AAF0F /* [CP] Check Pods Manifest.lock */,
 				3B7A23A82C5E2DA300AABA3B /* Sources */,
 				3B7A23A92C5E2DA300AABA3B /* Frameworks */,
 				3B7A23AA2C5E2DA300AABA3B /* Resources */,
+				696F1FA8C69EC8F5F317B603 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -358,6 +438,109 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		24EC41FBCCFED1328DEA9950 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TPETravel/Pods-TPETravel-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TPETravel/Pods-TPETravel-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TPETravel/Pods-TPETravel-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5733A8BDDADE82416C4AAF0F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TPETravel-TPETravelUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		696F1FA8C69EC8F5F317B603 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TPETravel-TPETravelUITests/Pods-TPETravel-TPETravelUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TPETravel-TPETravelUITests/Pods-TPETravel-TPETravelUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TPETravel-TPETravelUITests/Pods-TPETravel-TPETravelUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D3BF1B169DFE7C33A7081406 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TPETravel-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EFE6314C2554C8A007A053D9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TPETravelTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3B7A23872C5E2DA200AABA3B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -366,16 +549,22 @@
 				3B7A23DD2C5E32D400AABA3B /* ThemeFont.swift in Sources */,
 				3B7A23D02C5E2E8E00AABA3B /* SpotsViewController.swift in Sources */,
 				3B7A23D12C5E2E8E00AABA3B /* SpotsViewModel.swift in Sources */,
+				23EF176E2CADC0360003B4DE /* Bundle+Extension.swift in Sources */,
 				3B7A238F2C5E2DA200AABA3B /* AppDelegate.swift in Sources */,
 				3B7A23D92C5E32C700AABA3B /* LabelFactory.swift in Sources */,
 				3B7A23912C5E2DA200AABA3B /* SceneDelegate.swift in Sources */,
+				23071BA72C6737490047E647 /* MJRefreshWrapper.swift in Sources */,
+				23EF176A2CADBDEA0003B4DE /* Constant.swift in Sources */,
 				3B7A23CB2C5E2E7E00AABA3B /* NewsViewController.swift in Sources */,
 				3B7A23DC2C5E32D400AABA3B /* ThemeColor.swift in Sources */,
 				3B7A23E22C5E32E000AABA3B /* UIView+Extension.swift in Sources */,
+				23071BA92C6737540047E647 /* JGProgressHUDWrapper.swift in Sources */,
 				3B7A23E32C5E32E000AABA3B /* UIColor+Extension.swift in Sources */,
 				3B7A23E52C5E330D00AABA3B /* NetworkService.swift in Sources */,
 				3B7A23E12C5E32E000AABA3B /* UIResponder+Extension.swift in Sources */,
+				23071BA52C6737110047E647 /* KingFisherWrapper.swift in Sources */,
 				3B7A23CC2C5E2E7E00AABA3B /* NewsViewModel.swift in Sources */,
+				23EF176C2CADBFEB0003B4DE /* HTTPClient.swift in Sources */,
 				3B7A23932C5E2DA200AABA3B /* main.swift in Sources */,
 				3B7A23972C5E2DA200AABA3B /* HomeViewModel.swift in Sources */,
 				3B7A23952C5E2DA200AABA3B /* HomeViewController.swift in Sources */,
@@ -547,12 +736,14 @@
 		};
 		3B7A23B72C5E2DA300AABA3B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD196E72FAF6C07003012475 /* Pods-TPETravel.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 5BP43NW7P4;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TPETravel/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -574,12 +765,14 @@
 		};
 		3B7A23B82C5E2DA300AABA3B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4F4D37A354190F876243030 /* Pods-TPETravel.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 5BP43NW7P4;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TPETravel/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -601,6 +794,7 @@
 		};
 		3B7A23BA2C5E2DA300AABA3B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93BD1282A2C32023A8FC3C56 /* Pods-TPETravelTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -621,6 +815,7 @@
 		};
 		3B7A23BB2C5E2DA300AABA3B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B33A5C29A267CF8852635083 /* Pods-TPETravelTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -641,6 +836,7 @@
 		};
 		3B7A23BD2C5E2DA300AABA3B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FAD1EF095F4662CA42299D95 /* Pods-TPETravel-TPETravelUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -659,6 +855,7 @@
 		};
 		3B7A23BE2C5E2DA300AABA3B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6C18B0E3C593DAE6CCF3CEF /* Pods-TPETravel-TPETravelUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

@@ -5,3 +5,8 @@
 
 import Foundation
 
+protocol NetworkService {
+    func getData()
+}
+
+
